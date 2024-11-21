@@ -1,0 +1,19 @@
+{
+    "pack": {
+        "pack_format": 57,
+        "description": [
+            {
+                "text": "New Datapack",
+                "color": "#3f73af"
+            },
+            {
+                "text": " - Expansion\nCreated by ",
+                "color": "#7549e4"
+            },
+            {
+                "text": "celstia8792",
+                "color": "#683edd"
+            }
+        ]
+    }
+}

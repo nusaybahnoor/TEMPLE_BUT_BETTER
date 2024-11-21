@@ -1,0 +1,2 @@
+execute at @a[gamemode=!creative,gamemode=!spectator] as @e[type=armor_stand,tag=N.husk.armor_stand,distance=..10] at @s run function tick:armorsand2hust
+execute as @e[type=husk,tag=N.husk.boss] at @s run function tick:bosshusk

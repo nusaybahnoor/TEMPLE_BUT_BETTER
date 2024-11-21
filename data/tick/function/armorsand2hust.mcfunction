@@ -1,0 +1,2 @@
+summon husk ~ ~ ~ {Tags:["N.armor_stand.husk","N.new"],HandItems:[{id:"minecraft:golden_sword",count:1},{}],ArmorItems:[{id:"minecraft:golden_boots",count:1},{id:"minecraft:golden_leggings",count:1},{id:"minecraft:golden_chestplate",count:1},{id:"minecraft:golden_helmet",count:1}]}
+kill @s
