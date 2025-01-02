@@ -1,0 +1,1 @@
+summon husk ~ ~ ~ {IsBaby:1b,Tags:["husk_spawner"],HandItems:[{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{boss_husk:true}}},{}],HandDropChances:[100.000F,0.085F]}
