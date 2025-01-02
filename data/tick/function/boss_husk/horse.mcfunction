@@ -1,0 +1,1 @@
+## Mounts horse, when killed gets speed (angry)
