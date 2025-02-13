@@ -10,8 +10,8 @@ scoreboard players add @s N.boss.cooldown 1
 execute if score @s N.boss.cooldown matches ..20 run tp @s ~ ~.1 ~ ~ ~
 
 # Raycast
-execute if score @s N.boss.cooldown matches 21.. facing entity @p eyes run tp @s ^ ^ ^0.1 ~ ~
+execute if score @s N.boss.cooldown matches 21.. facing entity @p eyes run tp @s ^ ^ ^0.25 ~ ~
 
 # Hits player
-execute if entity @p[distance=..0.5] run damage @p 7 magic by @n[type=husk,tag=N.husk.boss]
-execute if entity @p[distance=..0.5] run kill @s
+execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run damage @p 7 magic by @n[type=husk,tag=N.husk.boss]
+execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run kill @s
