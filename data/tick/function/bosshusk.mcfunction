@@ -10,6 +10,10 @@ execute unless entity @p[distance=..64] run function tick:boss_husk/despawn
 execute as @e[type=item,nbt={Item:{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{boss_husk:true}}}}] at @s run function tick:boss_husk/convert_bone
 execute as @e[type=item_display,tag=activated,tag=boss_husk] at @s run function tick:boss_husk/bone_tick
 
+# Totem Attack Extras
+execute as @e[type=item_display,tag=N.boss_husk.healing_totem,distance=..32] at @s run function tick:boss_husk/totem_tick
+
 
 scoreboard players add @s N.boss.cooldown 1
 execute if score @s N.boss.cooldown matches 1.. run function tick:boss_husk/special_attack
+
