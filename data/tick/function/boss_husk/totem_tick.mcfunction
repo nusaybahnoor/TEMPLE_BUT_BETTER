@@ -1,0 +1,1 @@
+tp @s ~ ~ ~ facing entity @n[type=husk,tag=N.husk.boss] feet
