@@ -1,2 +1,3 @@
 ## Slows down and heals
 summon item_display ~ ~ ~ {Tags:["N.boss_husk.healing_totem"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[3f,3f,3f]},item:{id:"minecraft:totem_of_undying",count:1}}
+execute store result score @s N.boss.cooldown run random value -200..-100
