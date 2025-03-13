@@ -4,3 +4,5 @@ bossbar set minecraft:husk max 50
 bossbar set husk color yellow
 bossbar set husk style notched_12
 particle block{block_state:"minecraft:sand"} ~ ~1 ~ 0.25 1 0.25 10 500 force
+
+kill @s[type=item]
