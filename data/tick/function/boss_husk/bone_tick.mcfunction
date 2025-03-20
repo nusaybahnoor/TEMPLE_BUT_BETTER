@@ -8,11 +8,13 @@ scoreboard players add @s N.boss.cooldown 1
 
 # 20 ticks = 1 second
 execute if score @s N.boss.cooldown matches ..20 run tp @s ~ ~.1 ~ ~ ~
+execute if score @s N.boss.cooldown matches ..20 run particle minecraft:small_gust ~ ~ ~ 0.1 0.1 0.1 0 3 normal
+
 
 # Raycast
 execute if score @s N.boss.cooldown matches 21.. facing entity @p eyes run tp @s ^ ^ ^0.25 ~ ~
-execute if score @s N.boss.cooldown matches 21.. run particle minecraft:smoke ~ ~1 ~-1 0.1 0.1 0.1 0 1 force
-execute if score @s N.boss.cooldown matches 21.. run particle minecraft:white_smoke ~ ~1 ~ 0.1 0.1 0.1 0 5 force
+execute if score @s N.boss.cooldown matches 21.. run particle minecraft:smoke ~ ~ ~ 0.1 0.1 0.1 0 1 force
+execute if score @s N.boss.cooldown matches 21.. run particle minecraft:white_smoke ~ ~ ~ 0.1 0.1 0.1 0 5 force
 
 # Hits player
 execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run damage @p 7 magic by @n[type=husk,tag=N.husk.boss]
