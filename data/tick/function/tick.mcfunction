@@ -4,4 +4,4 @@ execute at @a[gamemode=!creative,gamemode=!spectator] as @e[tag=N.armor_stand.hu
 execute as @e[type=husk,tag=N.husk.boss] at @s run function tick:bosshusk
 
 # Optimize Later!
-execute as @e[type=item,nbt={Item:{id:"minecraft:ominous_trial_key"}}] at @s if block ~ ~-0.5 ~ end_portal_frame run function load:_private/king_of_the_husks
+execute as @e[type=item,nbt={Item:{id:"minecraft:totem_of_undying"}}] at @s if entity @n[type=marker,tag=boss_husk.spawn_anchor,tag=!prepared,distance=..1] run function load:_private/reset_anchor
