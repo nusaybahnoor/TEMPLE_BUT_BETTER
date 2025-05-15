@@ -14,8 +14,9 @@ execute as @e[type=item_display,tag=activated,tag=boss_husk] at @s run function 
 execute as @e[type=item_display,tag=N.boss_husk.healing_totem,distance=..32] at @s run function tick:boss_husk/totem_tick
 #jump
 
-effect clear @s[tag=N.boss_husk.jump] levitation 
-execute if entity @s[tag=N.boss_husk.jump,nbt={OnGround:1b}] run function tick:boss_husk/big_stomp_land
+tag @s[tag=N.boss_husk.jump_start,nbt={OnGround:0b}] add N.boss_husk.jumping
+effect clear @s[tag=N.boss_husk.jumping] levitation
+execute if entity @s[tag=N.boss_husk.jumping,nbt={OnGround:1b}] run function tick:boss_husk/big_stomp_land
 
 
 scoreboard players add @s N.boss.cooldown 1
