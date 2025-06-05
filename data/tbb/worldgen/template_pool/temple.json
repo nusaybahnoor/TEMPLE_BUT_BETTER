@@ -1,11 +1,11 @@
 {
-  "name":"gears_revive:end_dungeon/entrance",
+  "name":"tbb:temple",
   "fallback": "minecraft:empty",
   "elements": [
       {
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "gears_revive:end_dungeon/hallway_end",
+          "location": "tbb:temple",
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
