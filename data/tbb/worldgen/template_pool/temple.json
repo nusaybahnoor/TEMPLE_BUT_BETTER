@@ -1,0 +1,17 @@
+{
+  "name":"gears_revive:end_dungeon/entrance",
+  "fallback": "minecraft:empty",
+  "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "gears_revive:end_dungeon/hallway_end",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 1
+      }
+    
+    ]
+  }
+     
