@@ -19,7 +19,7 @@
  c. Other
  d. Resourcepack
     *. Remove Fox's Life Stuff
-3. Respawn Entities 
+3. Respawn Entities
 5. Get Generation Working
 6. Playtest
 7. Accept Feedback
