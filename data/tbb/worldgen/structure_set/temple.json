@@ -2,12 +2,12 @@
   "placement": {
     "type": "minecraft:random_spread",
     "salt": 14357617,
-    "separation": 8,
-    "spacing": 32
+    "separation": 2,
+    "spacing": 4
   },
   "structures": [
     {
-      "structure": "minecraft:desert_pyramid",
+      "structure": "tbb:temple",
       "weight": 1
     }
   ]
