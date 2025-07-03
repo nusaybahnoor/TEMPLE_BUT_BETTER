@@ -9,6 +9,7 @@ execute unless entity @p[distance=..64] run function tbb:tbb/boss/despawn
 # Bone Attack Extras
 execute as @e[type=item,nbt={Item:{id:"minecraft:bone",count:1,components:{"minecraft:custom_data":{boss_husk:true}}}}] at @s run function tbb:tbb/boss/special_attack/convert_bone
 execute as @e[type=item_display,tag=activated,tag=boss_husk] at @s run function tbb:tbb/boss/special_attack/bone_tick
+execute as @e[type=item_display,tag=boss_husk,distance=..1] at @s run tag @s add activated
 
 # Totem Attack Extras
 execute as @e[type=item_display,tag=N.boss_husk.healing_totem,distance=..32] at @s run function tbb:tbb/boss/special_attack/totem_tick
