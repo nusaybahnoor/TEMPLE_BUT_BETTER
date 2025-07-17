@@ -1,0 +1,38 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [48, 32],
+	"textures": {
+		"0": "block/fox",
+		"particle": "block/fox"
+	},
+	"elements": [
+		{
+			"name": "leg3",
+			"from": [-3.005, 0, -2],
+			"to": [-1.005, 6, 0],
+			"faces": {
+				"north": {"uv": [2, 13, 2.66667, 16], "texture": "#0"},
+				"east": {"uv": [1.33333, 13, 2, 16], "texture": "#0"},
+				"south": {"uv": [3.33333, 13, 4, 16], "texture": "#0"},
+				"west": {"uv": [2.66667, 13, 3.33333, 16], "texture": "#0"},
+				"up": {"uv": [2.66667, 13, 2, 12], "texture": "#0"},
+				"down": {"uv": [3.33333, 12, 2.66667, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [0, -89, 0],
+			"translation": [-14.5, -3.5, 17],
+			"scale": [1.64, 1.64, 1.64]
+		}
+	},
+	"groups": [
+		{
+			"name": "leg3",
+			"origin": [-1, 6, -1],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}
