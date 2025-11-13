@@ -9,10 +9,10 @@ scoreboard players add @s N.boss.cooldown 1
 # 20 ticks = 1 second
 execute if score @s N.boss.cooldown matches ..20 run tp @s ~ ~.1 ~ ~ ~
 execute if score @s N.boss.cooldown matches ..20 run particle minecraft:small_gust ~ ~ ~ 0.1 0.1 0.1 0 3 normal
-
+execute if score @s N.boss.cooldown matches ..20 at @s facing entity @p eyes run tp @s ^ ^ ^ ~ ~
 
 # Raycast
-execute if score @s N.boss.cooldown matches 21.. facing entity @p eyes run tp @s ^ ^ ^0.25 ~ ~
+execute if score @s N.boss.cooldown matches 21.. run tp @s ^ ^ ^0.5 ~ ~
 execute if score @s N.boss.cooldown matches 21.. run particle minecraft:smoke ~ ~ ~ 0.1 0.1 0.1 0 1 force
 execute if score @s N.boss.cooldown matches 21.. run particle minecraft:white_smoke ~ ~ ~ 0.1 0.1 0.1 0 5 force
 
