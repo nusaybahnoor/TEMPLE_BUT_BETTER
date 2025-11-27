@@ -9,7 +9,7 @@
       "absolute": -26
     },
     "start_pool": "tbb:temple",
-    "step": "underground_structures",
-    "terrain_adaptation": "bury",
+    "step": "underground_decoration",
+    "terrain_adaptation": "beard_box",
     "use_expansion_hack": false
   }
