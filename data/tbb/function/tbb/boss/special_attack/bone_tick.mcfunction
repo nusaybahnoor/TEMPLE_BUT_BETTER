@@ -18,4 +18,7 @@ execute if score @s N.boss.cooldown matches 21.. run particle minecraft:white_sm
 
 # Hits player
 execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run damage @p 7 magic by @n[type=husk,tag=N.husk.boss]
-execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run kill @s
+execute positioned ~ ~-1.5 ~ if entity @p[distance=..0.5] run function tbb:tbb/boss/special_attack/bone_kill
+
+# Hits block
+execute unless block ~ ~ ~ #air run function tbb:tbb/boss/special_attack/bone_kill
