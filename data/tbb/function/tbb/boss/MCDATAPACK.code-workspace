@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"path": "../../../../../../../../../resourcepacks/TBB RP"
+		}
+	],
+	"settings": {
+		"workbench.iconTheme": "mc-dp-icons"
+	}
+}
