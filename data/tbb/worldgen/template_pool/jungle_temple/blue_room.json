@@ -9,6 +9,7 @@
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
+        "weight": 30
 
       }
     
