@@ -1,16 +1,17 @@
 {
-  "name":"coppertools:lab/base",
+  "name":"tbb:jungle_temple/blue_room",
   "fallback": "minecraft:empty",
   "elements": [
       {
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "coppertools:lab/ladderend",
+          "location": "tbb:jungle_temple/blue_room/default",
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
-        "weight": 1
+
       }
+    
     ]
   }
      
