@@ -1,11 +1,11 @@
 {
-  "name":"tbb:jungle_temple/blue_room",
+  "name":"tbb:jungle_temple/cyan_room",
   "fallback": "minecraft:empty",
   "elements": [
       {
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "tbb:jungle_temple/blue_room/default",
+          "location": "tbb:jungle_temple/cyan_room/default",
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
@@ -14,7 +14,7 @@
       },     {
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "tbb:jungle_temple/blue_room/1",
+          "location": "tbb:jungle_temple/cyan_room/1",
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
