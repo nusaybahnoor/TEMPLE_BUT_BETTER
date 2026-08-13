@@ -5,7 +5,7 @@
       {
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "tbb:jungle_temple/tower/0",
+          "location": "tbb:jungle_temple",
           "processors": "minecraft:empty",
           "projection": "rigid"
         },
